@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Braude-Web-HM2/static/css/main.757b152f.css",
+    "main.js": "/Braude-Web-HM2/static/js/main.267f2434.js",
+    "static/media/shrimp.png": "/Braude-Web-HM2/static/media/shrimp.5ad74d51cc7bda5d3c24.png",
+    "static/media/planBg.jpg": "/Braude-Web-HM2/static/media/planBg.1e541ad4493948ff0158.jpg",
+    "static/media/Healthy.jpg": "/Braude-Web-HM2/static/media/Healthy.f8d998ab6414d1316896.jpg",
+    "static/media/shakshuka.png": "/Braude-Web-HM2/static/media/shakshuka.3db179a3a4bdb77a7140.png",
+    "static/media/sign.png": "/Braude-Web-HM2/static/media/sign.6ea123debbe0bd3bc4d5.png",
+    "static/media/hummus.png": "/Braude-Web-HM2/static/media/hummus.798f52792bb821ead8eb.png",
+    "static/media/pasta.png": "/Braude-Web-HM2/static/media/pasta.30b943f27fe75edc8b88.png",
+    "static/media/snails.png": "/Braude-Web-HM2/static/media/snails.87356370bafd673dfc6b.png",
+    "static/media/toast.png": "/Braude-Web-HM2/static/media/toast.ae49188b947f6ec52824.png",
+    "static/media/HungryHungry.jpg": "/Braude-Web-HM2/static/media/HungryHungry.25ebb2808f45da2437d8.jpg",
+    "static/media/hamburger.png": "/Braude-Web-HM2/static/media/hamburger.16efe826b836c921f709.png",
+    "index.html": "/Braude-Web-HM2/index.html",
+    "main.757b152f.css.map": "/Braude-Web-HM2/static/css/main.757b152f.css.map",
+    "main.267f2434.js.map": "/Braude-Web-HM2/static/js/main.267f2434.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.757b152f.css",
+    "static/js/main.267f2434.js"
+  ]
+}
