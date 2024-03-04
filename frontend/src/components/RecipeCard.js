@@ -91,26 +91,28 @@ const RecipeCard = ({
               </div>
             </div>
             {/* Conditionally render the select button based on `showSelectButton` prop */}
-            {showSelectButton && (
-              <button
-                onClick={(e) => {
-                  e.stopPropagation();
-                  onSelect(recipe._id); // Pass the recipe ID instead of the whole recipe
-                }}
-                className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
-              >
-                Select
-              </button>
-            )}
-            {/* Rest of the RecipeCard component remains unchanged */}
-            {showAddIngredientsButton && (
-              <button
-                onClick={handleAddIngredientsClick}
-                className="mt-4 bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
-              >
-                Add Ingredients
-              </button>
-            )}
+            <div className="flex justify-center">
+              {showSelectButton && (
+                <button
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    onSelect(recipe._id); // Pass the recipe ID instead of the whole recipe
+                  }}
+                  className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                >
+                  Select
+                </button>
+              )}
+              {/* Rest of the RecipeCard component remains unchanged */}
+              {showAddIngredientsButton && (
+                <button
+                  onClick={handleAddIngredientsClick}
+                  className="mt-4 bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded"
+                >
+                  Add Ingredients
+                </button>
+              )}
+            </div>
           </>
         )}
       </div>

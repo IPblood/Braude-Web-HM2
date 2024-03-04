@@ -21,3 +21,5 @@ To get a local copy up and running follow these simple steps:
 1. Clone the repo
    ```sh
    git clone https://github.com/yourproject/repo.git
+
+Created By : Amir Mishayev, Lital Leschinsky, Dana Batesh and Michael Trifonov.
